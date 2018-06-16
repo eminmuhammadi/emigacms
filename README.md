@@ -1,4 +1,4 @@
-# emigacms
+# EmiGA CMS by Emin Muhammadi
 Hello there ,
 
 I am Emin Muhammadi and I created this project EmiGA CMS. That theme created by EmiGa CMS. emigacustom for EmiGa CMS is sophisticated, lightweight, and adaptable. This theme is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display.
