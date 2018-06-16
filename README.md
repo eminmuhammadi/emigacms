@@ -11,30 +11,30 @@ Okay I want to show project step by step
 
 Step 1.      Default installation emigacustom theme
 
-![alternativetext](img/step1.png)
+![alternativetext](img/1.png)
 
 Step 2.      EmiGA CMS support Disquis AddToAny GoogleAnalytics GoogleTagManager OneSignal and etc.
 
-![alternativetext](img/step2.png)
+![alternativetext](img/2.png)
 
 Step 3.      EmiGa CMS in emigacustom theme you can configure widget (search bar , popular posts , categories list)
 
-![alternativetext](img/step3.png)
+![alternativetext](img/3.png)
 
 Step 4.    Add post in cms administration section 
 
-![alternativetext](img/step4.png)
+![alternativetext](img/4.png)
 
 Step 5.  Edit, Delete any post
 
-![alternativetext](img/step5.png)
+![alternativetext](img/5.png)
 
 Step 6. Edit , Delete , Add categories
 
-![alternativetext](img/step6.png)
+![alternativetext](img/6.png)
 
 Step 7. Edit and Delete permantly your profile
 
-![alternativetext](img/step7.png)
+![alternativetext](img/7.png)
 
 and other configure in dashboard section .
