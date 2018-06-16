@@ -24,7 +24,7 @@ $count_post="0";
 }
 ?>
 <?php
-$most_viewed_sql="SELECT COALESCE(sum(date_view), 0) AS totalcount FROM `post` WHERE DATE(date) = CURDATE()";
+$most_viewed_sql="SELECT COALESCE(sum(view), 0) AS totalcount FROM `post` WHERE DATE(date_view) = CURDATE()";
 $most_viewed=mysqli_query($connect, $most_viewed_sql);
 if (mysqli_num_rows($most_viewed) > 0) {
 while($row = mysqli_fetch_array($most_viewed)){
