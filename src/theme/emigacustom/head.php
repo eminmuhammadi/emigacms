@@ -82,10 +82,8 @@ echo "
 <?php
 if($allowGoogle=="1"){
 	echo "
-<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=$GoogleTagManager\"
-height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->";}?>
+height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>";}?>
 <?php require_once(realpath($_SERVER["DOCUMENT_ROOT"]) ."/theme/$theme_name/navigation.php"); ?>	
 <!-- Page Content -->
 <?php
