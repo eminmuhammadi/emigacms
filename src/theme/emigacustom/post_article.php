@@ -1,9 +1,8 @@
 <?php  
 if(mysqli_num_rows($result) > 0)  
 {  
-$date_now=date("Y-m-d");	
 $new_view=$view+1;	
-$update_view_sql="UPDATE post SET view='$new_view' , date_view='$date_now' WHERE post_id='$post_id'  ";
+$update_view_sql="UPDATE post SET view='$new_view' WHERE post_id='$post_id'  ";
 $update_view=mysqli_query($connect, $update_view_sql);
 
 // Title

@@ -61,8 +61,7 @@ CREATE TABLE `post` (
   `category` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `publisher` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
-  `view` int(100) DEFAULT '0',
-  `date_view` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `view` int(100) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- --------------------------------------------------------
