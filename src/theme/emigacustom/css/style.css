@@ -1,0 +1,18 @@
+/*  This is style css section */
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+.center {
+	text-align: center;
+}
+.white{
+	color:white;
+}
+.white:hover{
+	color:white;
+}
