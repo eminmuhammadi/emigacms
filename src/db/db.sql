@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2018 at 09:03 PM
+-- Generation Time: Jun 16, 2018 at 05:52 PM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -39,7 +39,7 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`id`, `category_name`, `reg_date`) VALUES
-(3, 'Untitled', '');
+(1, 'Untitled', '');
 
 -- --------------------------------------------------------
 
@@ -61,7 +61,8 @@ CREATE TABLE `post` (
   `category` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `publisher` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
-  `view` int(100) DEFAULT '0'
+  `view` int(100) DEFAULT '0',
+  `date_view` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- --------------------------------------------------------
@@ -78,6 +79,10 @@ CREATE TABLE `users` (
   `password` text COLLATE utf8mb4_bin NOT NULL,
   `reg_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+--
+-- Indexes for dumped tables
+--
 
 --
 -- Indexes for table `category`
@@ -111,7 +116,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `users`
