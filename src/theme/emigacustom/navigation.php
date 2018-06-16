@@ -20,7 +20,7 @@
               else{
                 echo $total_pages;
               }
-              ?>">Posts</a>
+              ?>">Blog</a>
             </li>
           </ul>
         </div>
