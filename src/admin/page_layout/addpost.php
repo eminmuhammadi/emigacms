@@ -59,8 +59,7 @@ if ($uploadOk == 0) {
       $post_title = mysqli_real_escape_string($connect, $_POST["post_title"]);  
       $post_text = mysqli_real_escape_string($connect, $_POST["post_text"]); 
       //================Post Image============================//
-      $url_image=$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'];
-      $post_image_link=$url_image . '/uploads/'.$nodublicate.'_'. basename($_FILES["post_image"]["name"]);
+      $post_image_link='/uploads/'.$nodublicate.'_'. basename($_FILES["post_image"]["name"]);
         $post_image_width="640";
         $post_image_height="320";
       //=================Post Meta============================//

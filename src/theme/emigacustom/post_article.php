@@ -36,7 +36,7 @@ a2a_config.linkurl = \"$url\";
 <script async src=\"https://static.addtoany.com/menu/page.js\"></script></br>";
 
 // Image
-echo "<img class=\"img-fluid rounded center\" src=\"$post_image\" alt=\"$post_title\" height=\"300\" width=\"900\"><hr>";
+echo "<img class=\"img-fluid mx-auto d-block\" src=\"$post_image\" alt=\"$post_title\" style=\"height:150px;align:center;text-align:center;\" ><hr>";
 
 // Data
 echo $post_text; 

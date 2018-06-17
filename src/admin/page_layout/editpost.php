@@ -93,10 +93,8 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
-$url_image=$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'];
-$a_post_image=$url_image . '/uploads/'.$nodublicate.'-'. basename($_FILES["post_image"]["name"]);
+$a_post_image='/uploads/'.$nodublicate.'-'. basename($_FILES["post_image"]["name"]);
 $change_image = "UPDATE post SET post_image='".$a_post_image."'  WHERE post_id='".$post_id."'  "; 
-$view_image_link=$url_image . '/post/'.$post_title;
 if(mysqli_query($connect, $change_image))  {  
 echo"
 <div class=\"alert alert-primary alert-dismissible fade show\">
@@ -118,7 +116,6 @@ if(isset($_POST["submit_btn"]))
       $after_post_title = mysqli_real_escape_string($connect, $_POST["post_title"]);  
       $after_post_text = mysqli_real_escape_string($connect, $_POST["post_text"]); 
       //================Post Image============================//
-      $url_image=$_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'];
         $after_post_image_width="640";
         $after_post_image_height="320";
       //=================Post Meta============================//
