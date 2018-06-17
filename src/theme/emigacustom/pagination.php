@@ -1,4 +1,7 @@
 <?php
+//this section for posts.php and 
+// navigation can get last total page for all post grid
+
 
         if (isset($_GET['page'])) {
             $page = $_GET['page'];
