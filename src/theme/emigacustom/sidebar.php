@@ -71,7 +71,7 @@ $most_post_title=substr($most_post_title,0,30);
 echo "
 <div class=\"col-6\">
 <div class=\"card text-white shadow-sm\">
-<img class=\"card-img filter-sidebar-img\" src=\"$most_post_image\"  height=\"100\" width=\"500\"alt=\"$most_post_title\">
+<img class=\"img-thumbnail rounded filter-sidebar-img\" src=\"$most_post_image\"  height=\"100\" width=\"500\"alt=\"$most_post_title\">
 <div class=\"bottom-left shadow-sm sidebar-title\">
 <a href=\"/post/$most_post_url\"><h4 class=\"txt-white\">$most_post_title</h4></a>
 </div>
