@@ -3,7 +3,7 @@
 
 Hello there ,
 
-I am [Emin Muhammadi](https://www.facebook.com/emiga.mohammadi) and I created this project [EmiGA CMS](http://www.getemigacms.ml). That theme created by [EmiGA CMS](http://www.getemigacms.ml). emigacustom for EmiGa CMS is sophisticated, lightweight, and adaptable. This theme is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display.
+I am [Emin Muhammadi](https://www.facebook.com/emiga.mohammadi) and I created this project [EmiGA CMS](https://getemigacms.ml). That theme created by [EmiGA CMS](https://getemigacms.ml). emigacustom for EmiGa CMS is sophisticated, lightweight, and adaptable. This theme is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display.
 
 ```
 ## You need to set up
