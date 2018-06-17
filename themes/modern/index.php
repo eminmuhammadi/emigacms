@@ -45,7 +45,7 @@ echo "
               <div class=\"single-product\">
                 <div class=\"details\">
                   <h4>$r_post_title</h4>
-                  <p>asdghvasghdbashd</p>
+                  <p>$description</p>
                   <a href=\"/post/$r_post_url\" class=\"primary-btn text-uppercase\">Read</a>
                 </div>
               </div>
@@ -172,7 +172,7 @@ echo "
               <div class=\"single-product\">
                 <div class=\"details\">
                   <h4>$r_post_title</h4>
-                  <p>asdghvasghdbashd</p>
+                  <p>$description</p>
                   <a href=\"/post/$r_post_url\" class=\"primary-btn text-uppercase\">Read</a>
                 </div>
               </div>
