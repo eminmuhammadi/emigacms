@@ -33,7 +33,7 @@ $GoogleAnalytics="yourKey";
 $GoogleTagManager="yourKey"; 
 
 $oneSignal="yourKey";  // Allow OneSignal
-$shortname="yourShortName"; //  Enter Disquis shortname
+$shortname="yourShortName"; //  Enter Disqus shortname
 
 ```
 ### 4) Select theme at *edit/config.php*
