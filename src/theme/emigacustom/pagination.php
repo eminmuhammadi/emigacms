@@ -17,7 +17,7 @@
         $total_rows = mysqli_fetch_array($result)[0];
         $total_pages = ceil($total_rows / $no_of_records_per_page);
 
-        $sql = "SELECT * FROM post LIMIT $offset, $no_of_records_per_page";
+        $sql = "SELECT * FROM post ORDER BY id DESC LIMIT $offset, $no_of_records_per_page";
         $res_data = mysqli_query($connect,$sql);
 
 ?>
