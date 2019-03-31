@@ -1,6 +1,6 @@
 # EmiGA CMS by Emin Muhammadi
 
-## Archived due to It's my first introducing and aknowledge with PHP. Some stupid problems should be happened. It's for only memory for me :D
+## Archived due to It's my first introducing and aknowledge with PHP. Some stupid problems should be happened. It's only memory for me :D
 
 
 Hello there ,
